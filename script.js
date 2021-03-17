@@ -78,7 +78,6 @@ function validation(){
 		return false;
 	}
 	
-});
 }
 
 
