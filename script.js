@@ -48,8 +48,8 @@ function validation(){
 
 	if(pass!=confirmpass){
 		alert('Password Not Matched');
-		//issue
-		//document.getElementById('confirmpass').style.borderColor = "red";
+		
+		document.getElementById('confirmpass').style.borderColor = "red";
 		document.getElementById('confrmpass-error').innerHTML =" ** Password Not Matched";
 		//document.getElementById('confrmpass').style.borderColor = "red";
 		return false;
@@ -58,6 +58,7 @@ function validation(){
 
 
 	if(confirmpass == ""){
+		//issue
 		alert('Please fill the confirm password field');
 		document.getElementById('confrmpass-error').innerHTML =" ** Please fill the confirm password field";
 		return false;
@@ -65,15 +66,18 @@ function validation(){
 
 
 	if(emails == ""){
+		document.getElementById('emails').style.borderColor = "red";
 		document.getElementById('email-error').innerHTML =" ** Please fill the email idx` field";
 		return false;
 	}
 	if(emails.indexOf('@') <= 0 ){
+		document.getElementById('emails').style.borderColor = "red";
 		document.getElementById('email-error').innerHTML =" ** @ Invalid Position";
 		return false;
 	}
 
 	if((emails.charAt(emails.length-4)!='.') && (emails.charAt(emails.length-3)!='.')){
+		document.getElementById('emails').style.borderColor = "red";
 		document.getElementById('email-error').innerHTML =" ** . Invalid Position";
 		return false;
 	}
