@@ -128,7 +128,7 @@
   </div>
 </div>
 
-<h1 class="text-white text-center font-weight-bold bg-success" style="font-size: 55px;"> Form Validation </h1>
+<h1 class="text-white text-center font-weight-bold bg-dark" style="font-size: 55px;"> Form Validation </h1>
 
 	<div class="container"><br>
 		
@@ -139,19 +139,21 @@
 				<div class="form-group">
 					<label for="user" class="font-weight-bold"> Username: </label>
 					<input type="text" name="user" class="form-control" id="user" autocomplete="off">
-					<span id="username" class="text-danger font-weight-bold"> </span>
+					<span id="username-error" class="text-danger font-weight-bold"> </span>
+          <span id="username-error1" class="text-danger font-weight-bold"> </span>
 				</div>
 
 				<div class="form-group">
-					<label class="font-weight-bold"> Password: </label>
+          <label for="pass" class="font-weight-bold"> Password: </label>
+				
 					<input type="text" name="pass" class="form-control" id="pass" autocomplete="off">
-					<span id="passwords" class="text-danger font-weight-bold"> </span>
+					<span id="passwords-error" class="text-danger font-weight-bold"> </span>
 				</div>
 
 				<div class="form-group">
 					<label class="font-weight-bold"> Confirm Password: </label>
-					<input type="text" name="conpass" class="form-control" id="conpass" autocomplete="off">
-					<span id="confrmpass" class="text-danger font-weight-bold"> </span>
+					<input type="text" name="conpass" class="form-control" id="confirmpass" autocomplete="off">
+					<span id="confrmpass-error" class="text-danger font-weight-bold"> </span>
 				</div>
 
 				
@@ -159,11 +161,11 @@
 				<div class="form-group">
 					<label class="font-weight-bold"> Email: </label>
 					<input type="text" name="email" class="form-control" id="emails" autocomplete="off">
-					<span id="emailids" class="text-danger font-weight-bold"> </span>
+					<span id="email-error" class="text-danger font-weight-bold"> </span>
 				</div>
 
 				<input type="submit" name="submit" value="submit" class="btn btn-success" 	autocomplete="off">
-
+      
 
 			</form><br><br>
 
