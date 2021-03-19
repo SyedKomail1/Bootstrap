@@ -9,7 +9,6 @@ function validation() {
     //document.getElementById('username').innerHTML =" ** Please fill the username field";
     //return false;
 
-    alert("Helloo");
     alert("Please fill the username field");
     alert("Please fill the password field");
     alert("Please fill the confirm password field");
