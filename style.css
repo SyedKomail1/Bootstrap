@@ -1,29 +1,20 @@
-
-.navbar-nav{
-    
-    width: 100%;
-    font-size: larger;
-                height: 40px;
-                float: right;
-            
-                
-
+.navbar-nav {
+  width: 100%;
+  font-size: larger;
+  height: 40px;
+  float: right;
 }
-.navbar navbar-expand-md{
-
-    height: 100%;
+.navbar navbar-expand-md {
+  height: 100%;
 }
-.back-color{
-    background-color: black;
+.back-color {
+  background-color: black;
 }
-.footerwrapper{
-    
-        background-color: #f08686;
-        border-top: 1px solid rgb(7, 0, 0);
-        height: 230px;
-        width: 100px;
-        padding-top: 25px;
-        padding-left: 60px !important;
-        
-      
+.footerwrapper {
+  background-color: #f08686;
+  border-top: 1px solid rgb(7, 0, 0);
+  height: 230px;
+  width: 100px;
+  padding-top: 25px;
+  padding-left: 60px !important;
 }
